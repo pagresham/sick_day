@@ -84,12 +84,12 @@ section h2 {
   margin-bottom: 1em; }
 
 hgroup {
-  margin-top: 1em; }
+  margin-top: 1em;
+  text-align: center; }
 
 header h1 {
-  font-family: Kalam sans-serif;
+  font-family: 'Kalam' serif;
   font-style: italic;
-  font-weight: bold;
   font-size: 2em;
   display: inline-block; }
 
@@ -98,7 +98,7 @@ header h2 {
 
 section {
   min-height: 15em;
-  margin-top: 1em; }
+  margin-top: 0em; }
 
 footer {
   background: #626E64;
@@ -144,9 +144,6 @@ section div {
 
 #forward {
   float: right; }
-
-.slide {
-  margin-bottom: 1em; }
 
 .pictures {
   background-color: #112e36; }
@@ -194,6 +191,7 @@ ul {
   padding: 0;
   margin: 0; }
 
+/** This line finally! */
 nav li {
   display: inline; }
 
@@ -211,7 +209,7 @@ nav li:hover {
 
 #back,
 #forward {
-  margin: .5em 1em 0 1em;
+  margin: 0em 1em 1em 1em;
   background-color: #999;
   border-radius: .25em; }
 
@@ -219,6 +217,7 @@ nav li:hover {
   .slide {
     margin-left: 1em;
     margin-right: 1em; } }
+/** Button Animation */
 @keyframes glow {
   from {
     text-shadow: none; }
