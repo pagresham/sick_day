@@ -1,11 +1,5 @@
 // alert("hi there");
 
-
-// $(document).ready(function() {
-// 	// This is a test
-// 	//$('#demo').css('background-color', 'seagreen');
-// });
-
 $("document").ready(function() {
 	// alert('hi');
 	
@@ -36,7 +30,7 @@ $("document").ready(function() {
 	// --- End Image Viewer --- //
 
 
-	// Date
+	// --- Start Date --- //
 	
 	var currentDate = new Date();
 	
@@ -56,6 +50,8 @@ $("document").ready(function() {
 
 		return day+", "+month+" "+num;
 	}
+
+	// --- End Date --- //
 
 
 	// --- Start Boxes Demo --- //
